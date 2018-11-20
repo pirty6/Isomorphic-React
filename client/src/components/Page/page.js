@@ -29,6 +29,7 @@ class Header extends React.PureComponent<Props, State> {
       <div className='header'>
         <img src={ url + '.jpg'} alt=''/>
         <img src={ url + '.JPG'} alt=''/>
+        <img src={ url + '.png'} alt=''/>
       </div>
     );
   }
