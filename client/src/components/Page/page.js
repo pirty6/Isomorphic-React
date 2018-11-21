@@ -13,13 +13,8 @@ type Default = {
 };
 
 let url = window.location.href;
-//url = url.replace(/\#/g, '');
-//url = url.substring(0, url.length - 1);
-// url = url.split("#").pop()
-console.log(url+'.jpg');
-//let newUrl = url.split("/").pop();
-//console.log(newUrl);
 
+// console.log(jpg);
 class Header extends React.PureComponent<Props, State> {
   static defaultProps: Default = {
     className: '',
@@ -27,9 +22,9 @@ class Header extends React.PureComponent<Props, State> {
   render() {
     return (
       <div className='header'>
-        <img src={ url + '.jpg'} alt=''/>
-        <img src={ url + '.JPG'} alt=''/>
-        <img src={ url + '.png'} alt=''/>
+        <img src={url+'.jpg'} alt=""/>
+        <img src={url+'.png'} alt=""/>
+
       </div>
     );
   }
