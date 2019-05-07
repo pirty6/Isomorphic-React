@@ -1,6 +1,6 @@
 {
   "name": "Isomorphic-React",
-  "version": "1.0.0",
+  "version": "10.15.3",
   "main": "index.js",
   "proxy": "http://localhost:5000",
   "repository": "https://github.com/pirty6/Isomorphic-React.git",
